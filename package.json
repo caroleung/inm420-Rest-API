@@ -1,0 +1,14 @@
+{
+  "name": "inm420-nasa",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Ka Yung Leung",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+  "lite-server": "^2.6.1"
+ }  
+}

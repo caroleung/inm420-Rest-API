@@ -1,0 +1,149 @@
+/* Import the Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Style for the navigation bar */
+nav {
+    background-color: #333;
+}
+
+/* Style for the unordered list inside the navigation bar */
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+}
+
+/* Style for link elements inside list items */
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Hover style for anchor elements */
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Styles for the banner section */
+#banner {
+    background-image: url('/assets/img/banner.jpg'); 
+    background-size: cover; /* Cover the entire banner */
+    background-position: center; 
+    height: 200px; 
+    position: relative; /* Set position to relative to allow absolute positioning of text */
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Styles for the text overlay on the banner */
+.banner-text {
+    position: absolute; /* Position the text absolutely relative to the banner */
+    top: 14%; /* Align text vertically at 50% from the top of the banner */
+    left: 50%; /* Align text horizontally at 50% from the left of the banner */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    max-width: 80%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    color: white; 
+    text-align: center; 
+}
+
+/* Styles for the main wrapper */
+.wrapper {
+    display: flex; /* Use flexbox for layout */
+    padding: 20px;
+    max-width: 80%;
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background-color: #f2f2f2; 
+    border: 1px solid black; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Styles for the content containers */
+.container, .container2 {
+    padding: 20px;
+}
+
+/* Styles for container 1 */
+.container {
+    flex: 1;/* Take up one-third of available space */
+    background-color: #f2f2f2; 
+}
+
+/* Styles for container 2 */
+.container2 {
+    flex: 2;/* Take up two-thirds of available space */
+    color: white;
+    border: solid 1px white;
+    background-color: #333;
+}
+
+/* Styles for the page heading */
+h1 {
+    font-size: 18px;
+}
+
+
+/* Styles for the APOD information */
+#apod-info {
+    font-family: 'Montserrat', sans-serif; /* Apply the Montserrat font */
+    margin-top: 20px; /* Add some space above the APOD info */
+    font-size: 14px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center items horizontally */
+
+}
+
+
+
+/* Styles for the APOD image */
+#apod-info img {
+    max-width: 40%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #333;
+}
+
+/* Set the background color of the page */
+body {
+    background-color: #f2f2f2; 
+}
+
+/* Button styles */
+#submit-button {
+    background-color: #333;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#submit-button:hover {
+    background-color: #ffffff;
+    color: #333;
+    padding: 4px 8px;
+    border: solid 1px #333;
+}
+
+
+/* Styles for the date picker */
+input[type="date"] {
+    padding: 4px;
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: #333;
+    border-radius: 8px white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
